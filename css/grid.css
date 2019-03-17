@@ -65,17 +65,6 @@
 }
 
 /* for index page  */
-
-.container{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container div{
-  border: 1px solid black;
-  padding: 1em;
-}
-
 .nav-container {
   border: 0px solid black;
 }
@@ -83,6 +72,17 @@
 .nav-container2 {
   border: 0px solid black;
   max-width: 100%;
+}
+
+.container div{
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
 }
 
 .block1 {

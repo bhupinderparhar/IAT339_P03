@@ -35,7 +35,7 @@ a {
 
 /* Welcome text */
 .top-center {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Alfa Slab One', cursive;
   position: absolute;
   top: 0%;
   left: 72%;
@@ -48,6 +48,12 @@ a {
 #hamburger {
 	max-width: 1.875em;
 	margin-left: 3.125em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* The side navigation menu */
