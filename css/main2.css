@@ -20,8 +20,12 @@ a {
 
 .nav-menu-bottom {
 	text-align: center;
+  font-size: 0.75em;
 }
 
+.nav-text-bottom {
+  padding-right: 1em;
+}
 
 /* hamburger menu logo */
 #hamburger {
