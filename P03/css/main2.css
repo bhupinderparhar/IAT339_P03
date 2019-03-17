@@ -1,0 +1,83 @@
+html {
+	font-size: 16px;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+.nav-menu {
+  text-align: right;
+  margin-right: 2em;
+  margin-top: 5.75em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.125em;
+}
+
+.nav-text {
+	margin-right: 1.5em;
+}
+
+.nav-menu-bottom {
+	text-align: center;
+}
+
+
+/* hamburger menu logo */
+#hamburger {
+	max-width: 1.875em;
+	margin-left: 3.125em;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; 
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  /*padding: 8px 8px 8px 82px;*/
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 0px;
+  padding-left: 82px;
+  text-decoration: none;
+  font-size: 1.9em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.social_media_container {
+	padding-top: 200px;
+	font-size: 0.5em;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0.938em;}
+  .sidenav a {font-size: 1.125em;}
+}

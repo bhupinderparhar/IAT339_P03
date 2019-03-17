@@ -1,0 +1,95 @@
+/* source lecture 3 & lab 3 */
+/* for style guide page */
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container1 div{
+  border: 1px solid black;
+  padding: 16px;
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container2 div{
+  border: 1px solid blue;
+  padding: 16px;
+  margin-top: 10px;
+}
+
+.box1 {
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 10em;
+  text-align: center;
+  background-color: #42687C;
+}
+
+.box2 {
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 10em;
+  text-align: center;
+  background-color: #84A5B8;
+}
+
+.box3 {
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 10em;
+  text-align: center;
+  background-color: #B3DAF1;
+}
+
+.box4 {
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 10em;
+  text-align: center;
+  background-color: #CBCBCB;
+}
+
+.box5 {
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 10em;
+  text-align: center;
+  background-color: #707571;
+}
+
+/* for index page  */
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div{
+  border: 1px solid black;
+  padding: 5em;
+}
+
+.nav-container {
+  border: 1px solid black;
+}
+
+.nav-container2 {
+  border: 1px solid black;
+}
+
+.block1 {
+  flex: 2;
+}
+
+.block2 {
+  flex: 2;
+}
+
+
