@@ -73,15 +73,16 @@
 
 .container div{
   border: 1px solid black;
-  padding: 5em;
+  padding: 1em;
 }
 
 .nav-container {
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 .nav-container2 {
-  border: 1px solid black;
+  border: 0px solid black;
+  max-width: 100%;
 }
 
 .block1 {

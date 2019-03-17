@@ -27,6 +27,23 @@ a {
   padding-right: 1em;
 }
 
+/* wallpaper main page */
+.container-img {
+  margin-top: 75px;
+  position: relative;
+}
+
+/* Welcome text */
+.top-center {
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  top: 0%;
+  left: 72%;
+  transform: translate(-50%, -65%);
+  color: red;
+  font-size: 7em;
+}
+
 /* hamburger menu logo */
 #hamburger {
 	max-width: 1.875em;
