@@ -3,3 +3,7 @@
 
 # Ada Library Information
 *.ali
+
+#exclude
+*.png
+*.DS_store
