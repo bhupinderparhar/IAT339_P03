@@ -65,17 +65,20 @@
 }
 
 /* for index page  */
+/* header */
 .nav-container {
-  border: 0px solid black;
+  border: 1px solid black;
 }
 
+/* footer */
 .nav-container2 {
-  border: 0px solid black;
+  border: 1px solid black;
   max-width: 100%;
 }
 
+/* project images */
 .container div{
-  border: 0px solid black;
+  border: 1px solid black;
   padding: 1em;
 }
 
