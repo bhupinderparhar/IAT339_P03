@@ -69,25 +69,26 @@
 /* for index page  */
 /* header */
 .nav-container {
-  border: 0px solid black;
+  border: 1px solid purple;
+  margin-top: 1.5%;
 }
 
 /* footer */
 .nav-container2 {
-  border: 0px solid black;
+  border: 1px solid black;
   max-width: 100%;
 }
 
-/* project images */
+/* project images div*/
 .container div{
-  border: 0px solid black;
+  border: 1px solid black;
   padding: 1em;
 }
 
+/* project images  */
 .container{
   display: flex;
   flex-wrap: wrap;
-  padding-top: 30px;
 }
 
 .block1 {
@@ -100,24 +101,24 @@
 
 /* content */
 .content {
-  border: 0px solid orange;
+  border: 1px solid orange;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 75px;
+  margin-top: 3.2%;
   position: relative;
   max-width: auto;
 }
 
 /* wallpaper main page */
 .container-img {
-  border: 0px solid green;
+  border: 1px solid green;
   position: relative;
   flex-wrap: wrap;
 }
 
 /* Welcome text box */
 .welcome_text_box {
-  border: 0px solid black;
+  border: 1px solid black;
   position: absolute;
   flex-wrap: wrap;
   top: -16.5%;
