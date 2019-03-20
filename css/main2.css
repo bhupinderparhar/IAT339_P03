@@ -14,17 +14,42 @@ a {
   font-size: 1.125em;
 }
 
-.nav-text {
-	margin-right: 1.5em;
+nav a:hover, nav a:focus {
+  text-decoration: none;
 }
 
-.nav-menu-bottom {
-	text-align: center;
+.menu-bottom {
   font-size: 0.75em;
 }
 
-.nav-text-bottom {
-  padding-right: 1em;
+.nav-container-bottom {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.link1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.link2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.link3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.link4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.link5 a {
+  text-decoration: none;
+  color: black;
 }
 
 /* hamburger menu logo */

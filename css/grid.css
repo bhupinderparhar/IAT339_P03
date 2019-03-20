@@ -69,19 +69,47 @@
 /* for index page  */
 /* header */
 .nav-container {
-  border: 1px solid purple;
+  border: 0px solid purple;
   margin-top: 1.5%;
 }
 
 /* footer */
-.nav-container2 {
-  border: 1px solid black;
+.nav-container-bottom {
+  border: 0px solid black;
   max-width: 100%;
+  text-align: center;
+}
+
+.link1 {
+  flex: 5;
+}
+
+.link2 {
+  flex: 5;
+}
+
+.link3 {
+  flex: 5;
+}
+
+.link4 {
+  flex: 5;
+}
+
+.link5 {
+  flex: 5;
+}
+
+@media screen and (min-width: 1218px) {
+  .nav-container-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* project images div*/
 .container div{
-  border: 1px solid black;
+  border: 0px solid black;
   padding: 1em;
 }
 
@@ -106,7 +134,7 @@
 
 /* content */
 .content {
-  border: 1px solid orange;
+  border: 0px solid orange;
   display: flex;
   flex-wrap: wrap;
   margin-top: 3.2%;
@@ -115,14 +143,14 @@
 
 /* wallpaper main page */
 .container-img {
-  border: 1px solid green;
+  border: 0px solid green;
   position: relative;
   flex-wrap: wrap;
 }
 
 /* Welcome text box */
 .welcome_text_box {
-  border: 1px solid black;
+  border: 0px solid black;
   position: absolute;
   flex-wrap: wrap;
   top: -16.5%;
