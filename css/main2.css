@@ -101,6 +101,7 @@ h1.welcome_text {
 	font-size: 0.5em;
 }
 
+/* for hamburger nav */
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 0.938em;}
