@@ -132,3 +132,16 @@ h1.welcome_text {
   .sidenav {padding-top: 0.938em;}
   .sidenav a {font-size: 1.125em;}
 }
+
+#myself {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 990px) {
+  /* about me page */
+  #myself {
+    max-width: 100%;
+    float: right;
+  }
+}
+
