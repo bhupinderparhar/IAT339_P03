@@ -64,6 +64,8 @@
   background-color: #707571;
 }
 
+/*----------------------------------------------------*/
+
 /* for index page  */
 /* header */
 .nav-container {
@@ -96,4 +98,28 @@
   flex: 2;
 }
 
+/* content */
+.content {
+  border: 2px solid orange;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  position: relative;
+  max-width: auto;
+}
 
+/* wallpaper main page */
+.container-img {
+  border: 1px solid green;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/* Welcome text box */
+.welcome_text_box {
+  border: 1px solid black;
+  position: absolute;
+  flex-wrap: wrap;
+  top: -16%;
+  left: 59.3%;
+}

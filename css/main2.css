@@ -27,30 +27,28 @@ a {
   padding-right: 1em;
 }
 
-/* wallpaper main page */
-.container-img {
-  margin-top: 75px;
-  position: relative;
-}
-
-/* Welcome text */
-.top-center {
-  font-family: 'Alfa Slab One', cursive;
-  position: absolute;
-  top: 0%;
-  left: 72%;
-  transform: translate(-50%, -65%);
-  color: red;
-  font-size: 7em;
-}
-
 /* hamburger menu logo */
 #hamburger {
 	max-width: 1.875em;
 	margin-left: 3.125em;
 }
 
-.center {
+/* wallpaper image */
+#wallpaper {
+  max-width: 100%;
+}
+
+/* Welcome text */
+/* https://www.w3schools.com/howto/howto_css_responsive_text.asp */
+h1.welcome_text {
+  font-family: 'Alfa Slab One', cursive;
+  color: red;
+  font-size: 6.5vw;
+
+}
+
+/* project images */
+.project_images {
   display: block;
   margin-left: auto;
   margin-right: auto;
