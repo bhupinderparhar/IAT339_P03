@@ -133,6 +133,7 @@ h1.welcome_text {
   .sidenav a {font-size: 1.125em;}
 }
 
+/* about me page */
 #myself {
   max-width: 100%;
   display: block;
@@ -147,4 +148,11 @@ h1.welcome_text {
     float: right;
   }
 }
+
+/* the binding of isaac page */
+.lists {
+  list-style: none;
+}
+
+
 
