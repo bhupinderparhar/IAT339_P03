@@ -19,6 +19,10 @@ p {
   line-height: 1.5;
 }
 
+.caption {
+  font-size: .55em;
+}
+
 nav a:hover, nav a:focus {
   text-decoration: none;
 }
@@ -159,9 +163,17 @@ h1.welcome_text {
   list-style: none;
 }
 
-/* blockhead vr content */
-
 iframe {
   border: 0px;
 }
 
+/* blockhead vr content */
+#realvr {
+  display: block;
+  max-width: 100%;
+}
+
+#sketches_blockhead {
+  display: block;
+  max-width: 100%;
+}
