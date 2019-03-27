@@ -179,3 +179,17 @@ iframe {
   display: block;
   max-width: 100%;  
 }
+
+/*the binding of isaac content*/
+#userplaying{
+  display: block;
+  max-width: 100%;
+}
+
+#userdebrief{
+  display: block;
+  max-width: 100%;  
+}
+
+
+

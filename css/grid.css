@@ -198,51 +198,25 @@
 /* -------------------------------- */
 
 /* the binding of isaac title */
-.game_container1 div {
-  border: 1px solid purple;
-  display: block;
-}
-
 .game_container1 {
-  text-align: right;
-}
-
-/* isaac content */
-.game_container2 div {
-  border: 1px solid red;
-}
-
-.game_container2 {
+  border: 0px solid black;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
+  margin-top: 1.8%;
+  margin-left: 10%;
+  margin-right: 13.5%;
 }
 
-.game_block2 {
-  flex: 3;
-  flex-grow: 1;
-  flex-basis: 15em;
-  order: 1;
-}
-
-.game_block3 {
-  flex: 3;
-  flex-grow: 1;
-  flex-basis: 1em;
-  order: 3;
-}
-
-.game_block4 {
-  flex: 3;
-  flex-grow: 1;
-  flex-basis: 20em;
-  order: 2;
+.heading_game {
+  border: 0px solid green;
+  flex-basis: 100%;
 }
 
 /* source code for youtube responsive video */
 /* https://www.youtube.com/watch?v=9YffrCViTVk */
-/*
-.vr_block1 {
-  border: 1px solid green;
+
+.game_youtube {
+  border: 0px solid green;
   flex: 2;
   flex-grow: 1;
   flex-basis: 53%;
@@ -252,7 +226,7 @@
   height: 0;
 }
 
-.vr_block1 iframe {
+.game_youtube iframe {
   position: absolute;
   top:0;
   left: 0;
@@ -260,7 +234,93 @@
   height: 100%;
 }
 
-*/
+.game_goal {
+  border: 0px solid green;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 47%;
+  padding-left: 3%;
+}
+
+.game_tools {
+  border: 0px solid red;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.game_skills {
+  border: 0px solid red;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.game_problems {
+  border: 0px solid red;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.game_decisions {
+  border: 0px solid red;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.game_solution {
+  border: 0px solid black;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 53%;
+}
+
+.game_playing {
+  border: 0px solid black;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 47%;
+  padding-left: 3%;
+}
+
+.game_user_process{
+  border: 0px solid red;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 53%;
+}
+
+.game_team_process {
+  border: 0px solid red;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 47%;
+  padding-left: 3%;
+}
+
+.game_research {
+  border: 0px solid black;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 53%;
+}
+
+.game_debrief{
+  border: 0px solid black;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 47%;
+  padding-left: 3%;
+}
+
+.game_reflection{
+  border: 0px solid black;
+  flex: 1;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
 
 /* ------------------------------------------ */
 /* blockhead vr content */
