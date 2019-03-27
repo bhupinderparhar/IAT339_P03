@@ -281,16 +281,16 @@
 
 .vr_wallpaper {
   border: 0px solid green;
-  flex: 2;
+  flex: 3;
   flex-grow: 1;
   flex-basis: 53%;
 }
 
-.vr_goal {
-  border: 0px solid green;
-  flex: 2;
+.tools_list{
+  border: 0px solid red;
+  flex: 3;
   flex-grow: 1;
-  flex-basis: 47%;
+  flex-basis: 23.5%;
   padding-left: 3%;
 }
 
@@ -298,42 +298,42 @@
   border: 0px solid red;
   flex: 3;
   flex-grow: 1;
-  flex-basis: 15%;
+  flex-basis: 23.5%;
 }
 
-.skills_list2{
+/*.skills_list2{
   border: 0px solid red;
   flex: 3;
   flex-grow: 1;
   flex-basis: 25%;
   padding-top: 4.8%;
-}
+}*/
 
-.tools_list{
-  border: 0px solid red;
-  flex: 3;
+
+.vr_goal {
+  border: 0px solid green;
+  flex: 1;
   flex-grow: 1;
-  flex-basis: 60%;
+  flex-basis: 100%;
 }
 
 .problems_decisions {
   border: 0px solid green;
   flex: 3;
-  flex-basis: 26.5%;
+  flex-basis: 33.3%;
 }
 
 .decision_block {
   border: 0px solid green;
   flex: 3;
-  flex-basis: 26.5%;
-  padding-top: 4.7%;
+  flex-basis: 33.3%;
 }
 
 .vr_sketches {
   border: 0px solid green;
   flex: 3;
   flex-grow: 1;
-  flex-basis: 47%;
+  flex-basis: 33.3%;
   padding-left: 3%;
   padding-top: 1.7%;
 }
