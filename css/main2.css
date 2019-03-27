@@ -150,14 +150,6 @@ h1.welcome_text {
   margin-right: auto;
 }
 
-@media screen and (min-width: 924px) {
-  /* about me page */
-  #myself {
-    max-width: 100%;
-    float: right;
-  }
-}
-
 /* the binding of isaac page */
 .lists {
   list-style: none;
