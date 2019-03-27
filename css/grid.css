@@ -192,7 +192,7 @@
     padding-left: 1%;
     padding-right: 9%;
   }
-  
+
 }
 
 /* -------------------------------- */
@@ -263,140 +263,135 @@
 */
 
 /* ------------------------------------------ */
-@media screen and (min-width: 1249px) {
+/* blockhead vr content */
+.vr_content_container  {
+  border: 0px solid orange;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.8%;
+  margin-left: 10%;
+  margin-right: 13.5%;
+}
 
-  /* blockhead vr content */
-  .vr_content_container  {
-    display: flex;
-    flex-wrap: wrap;
-    border: 0px solid orange;
-    margin-top: 1.8%;
-    margin-left: 10%;
-    margin-right: 13.5%;
-  }
+/* blockhead vr content */
+.heading_vr {
+  border: 0px solid green;
+  flex-basis: 100%;
+}
 
-  /* blockhead vr content */
-  .heading_vr {
-    border: 0px solid green;
-    flex-basis: 100%;
-  }
+.vr_wallpaper {
+  border: 0px solid green;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 53%;
+}
 
-  .vr_block1 {
-    border: 0px solid green;
-    flex: 2;
-    flex-grow: 1;
-    flex-basis: 53%;
-  }
+.vr_goal {
+  border: 0px solid green;
+  flex: 2;
+  flex-grow: 1;
+  flex-basis: 47%;
+  padding-left: 3%;
+}
 
-  .vr_block2 {
-    border: 0px solid green;
-    flex: 2;
-    flex-grow: 1;
-    flex-basis: 47%;
-    padding-left: 3%;
-    padding-top: 21.6%;
-  }
+.skills_list{
+  border: 0px solid red;
+  flex: 3;
+  flex-grow: 1;
+  flex-basis: 15%;
+}
 
-  .tools_list{
-    border: 0px solid red;
-    flex: 3;
-    flex-grow: 1;
-    flex-basis: 15%;
-  }
+.skills_list2{
+  border: 0px solid red;
+  flex: 3;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding-top: 4.8%;
+}
 
-  .skills_list{
-    border: 0px solid red;
-    flex: 3;
-    flex-grow: 1;
-    flex-basis: 20%;
-    padding-left: 3%;
-  }
+.tools_list{
+  border: 0px solid red;
+  flex: 3;
+  flex-grow: 1;
+  flex-basis: 60%;
+}
 
-  .skills_list2{
-    border: 0px solid red;
-    flex: 3;
-    flex-grow: 1;
-    flex-basis: 65%;
-    padding-top: 4.8%;
-  }
+.problems_decisions {
+  border: 0px solid green;
+  flex: 3;
+  flex-basis: 26.5%;
+}
 
-  .vr_block3 {
-    border: 0px solid green;
-    flex: 3;
-    flex-basis: 26.5%;
-  }
+.decision_block {
+  border: 0px solid green;
+  flex: 3;
+  flex-basis: 26.5%;
+  padding-top: 4.7%;
+}
 
-  .decision_block {
-    border: 0px solid green;
-    flex: 3;
-    flex-basis: 26.5%;
-    padding-top: 4.7%;
-  }
+.vr_sketches {
+  border: 0px solid green;
+  flex: 3;
+  flex-grow: 1;
+  flex-basis: 47%;
+  padding-left: 3%;
+  padding-top: 1.7%;
+}
 
-  .vr_block4 {
-    border: 0px solid green;
-    flex: 3;
-    flex-grow: 1;
-    flex-basis: 47%;
-    padding-left: 3%;
-    padding-top: 1.7%;
-  }
+.solution_title {
+  border: 0px solid black;
+  flex: 1;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
 
-  .solution_title {
-    border: 0px solid black;
-    flex: 1;
-    flex-grow: 1;
-    flex-basis: 100%;
-  }
+.pinewood_list {
+  border: 0px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
 
-  .pinewood_list {
-    border: 0px solid black;
-    flex: 4;
-    flex-grow: 1;
-    flex-basis: 25%;
-  }
+.aluminum_list {
+  border: 0px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
 
-  .aluminum_list {
-    border: 0px solid black;
-    flex: 4;
-    flex-grow: 1;
-    flex-basis: 25%;
-  }
+.helmet_list {
+  border: 0px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
 
-  .helmet_list {
-    border: 0px solid black;
-    flex: 4;
-    flex-grow: 1;
-    flex-basis: 25%;
-  }
+.audio_list {
+  border: 0px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
 
-  .audio_list {
-    border: 0px solid black;
-    flex: 4;
-    flex-grow: 1;
-    flex-basis: 25%;
-  }
+.vr_proto {
+  border: 0px solid green;
+  flex: 1;
+  flex-basis: 100%;
+}
 
-  .vr_block6 {
-    border: 0px solid green;
-    flex: 1;
-    flex-basis: 100%;
-  }
+.vr_render {
+  border: 0px solid green;
+  flex: 1;
+  flex-basis: 100%;
+  padding-top: 1%;
+  padding-right: 47%
+}
 
-  .vr_block7 {
-    border: 0px solid green;
-    flex: 2;
-    flex-basis: 53%;
-    padding-top: 1%;
-  }
-
-  .vr_block8 {
-    border: 0px solid green;
-    flex: 2;
-    flex-basis: 47%;
-    padding-left: 3%;
-  }
-
+.vr_reflection {
+  border: 0px solid green;
+  flex: 1;
+  flex-basis: 100%;
+  padding-left: 0%;
 }
 
 * {
