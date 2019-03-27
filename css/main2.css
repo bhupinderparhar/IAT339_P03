@@ -177,3 +177,13 @@ iframe {
   display: block;
   max-width: 100%;
 }
+
+#prototype_vr {
+  display: block;
+  max-width: 100%;
+}
+
+#render_vr {
+  display: block;
+  max-width: 100%;  
+}

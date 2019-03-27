@@ -297,6 +297,27 @@
   padding-left: 3%;
 }
 
+      .goal_info {
+        border: 1px solid red;
+        flex: 1;
+        flex-grow: 1;
+        flex-basis: 47%;
+      }
+
+      .tools_list{
+        border: 1px solid red;
+        flex: 2;
+        flex-grow: 1;
+        flex-basis: 23.5%;
+      }
+
+      .skills_list{
+        border: 1px solid red;
+        flex: 2;
+        flex-grow: 1;
+        flex-basis: 23.5%;
+      }
+
 .vr_block3 {
   border: 1px solid green;
   flex: 2;
@@ -312,12 +333,59 @@
   padding-left: 3%;
 }
 
-.vr_block5 {
-  border: 1px solid green;
-  flex: 2;
+.solution_title {
+  border: 1px solid black;
+  flex: 1;
+  flex-grow: 1;
   flex-basis: 100%;
 }
 
+.pinewood_list {
+  border: 1px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.aluminum_list {
+  border: 1px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.helmet_list {
+  border: 1px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.audio_list {
+  border: 1px solid black;
+  flex: 4;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+
+.vr_block6 {
+  border: 1px solid green;
+  flex: 2;
+  flex-basis: 53%;
+}
+
+.vr_block7 {
+  border: 1px solid green;
+  flex: 2;
+  flex-basis: 47%;
+  padding-left: 3%;
+}
+
+.vr_block8 {
+  border: 1px solid green;
+  flex: 1;
+  flex-basis: 100%;
+}
 
 * {
   box-sizing: border-box;
