@@ -219,55 +219,47 @@
   border: 0px solid green;
   flex: 2;
   flex-grow: 1;
-  flex-basis: 53%;
+  flex-basis: 100%;
   position: relative;
-  width: 50%;
-  padding-bottom: 28.13%; 
-  height: 0;
 }
 
 .game_youtube iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
 }
 
 .game_goal {
   border: 0px solid green;
   flex: 2;
   flex-grow: 1;
-  flex-basis: 47%;
-  padding-left: 3%;
+  flex-basis: 100%;
 }
 
 .game_tools {
   border: 0px solid red;
-  flex: 4;
+  flex: 2;
   flex-grow: 1;
-  flex-basis: 25%;
+  flex-basis: 50%;
 }
 
 .game_skills {
   border: 0px solid red;
-  flex: 4;
+  flex: 2;
   flex-grow: 1;
-  flex-basis: 25%;
+  flex-basis: 50%;
 }
 
 .game_problems {
   border: 0px solid red;
   flex: 4;
   flex-grow: 1;
-  flex-basis: 25%;
+  flex-basis: 100%;
 }
 
 .game_decisions {
   border: 0px solid red;
   flex: 4;
   flex-grow: 1;
-  flex-basis: 25%;
+  flex-basis: 100%;
 }
 
 .game_solution {
@@ -279,10 +271,9 @@
 
 .game_playing {
   border: 0px solid black;
-  flex: 2;
+  flex: 1;
   flex-grow: 1;
-  flex-basis: 47%;
-  padding-left: 3%;
+  flex-basis: 100%;
 }
 
 .game_user_process{
@@ -309,10 +300,10 @@
 
 .game_debrief{
   border: 0px solid black;
-  flex: 2;
+  flex: 1;
   flex-grow: 1;
-  flex-basis: 47%;
-  padding-left: 3%;
+  flex-basis: 100%;
+  padding-top: 3%;
 }
 
 .game_reflection{
@@ -320,6 +311,156 @@
   flex: 1;
   flex-grow: 1;
   flex-basis: 100%;
+}
+
+@media screen and (min-width: 426px) {
+  .game_youtube {
+    border: 0px solid green;
+    flex: 2;
+    flex-grow: 1;
+    flex-basis: 53%;
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-bottom: 28.13%; 
+  }
+
+  .game_youtube iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+/*  .game_youtube {
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 3%;
+    position: relative;
+    width: 50%;
+    height: 0;
+    padding-bottom: 28.13%; 
+  }
+
+  .game_youtube iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }*/
+
+  .game_goal {
+    padding-left: 3%;
+    flex-basis: 100%
+  }
+
+  .game_tools {
+    flex: 4;
+    flex-basis: 50%;
+  }
+
+  .game_skills {
+    flex: 4;
+    flex-basis: 50%;
+  }
+
+  .game_problems {
+    flex: 2;
+    flex-basis: 50%;
+  }
+
+  .game_decisions {
+    flex: 2;
+    flex-basis: 50%;
+  }
+
+  .game_playing {
+    border: 0px solid black;
+    flex: 2;
+    flex-grow: 1;
+    flex-basis: 47%;
+    padding-left: 3%;
+    padding-top: 2.5%;
+  }
+
+  .game_debrief{
+    flex: 2;
+    flex-basis: 47%;
+    padding-left: 3%;
+    padding-top: 2.8%;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .game_goal {
+    padding-left: 0%;
+  }
+
+  .game_tools {
+    flex: 2;
+    flex-basis: 53%;
+  }
+
+  .game_skills {
+    flex: 2;
+    flex-basis: 47%;
+    padding-left: 3%;
+  }
+
+  .game_problems {
+    flex: 2;
+    flex-grow: 1;
+    flex-basis: 53%;
+  }
+
+  .game_decisions {
+    flex: 2;
+    flex-grow: 1;
+    flex-basis: 47%;
+    padding-left: 3%;
+  }
+
+  .game_debrief{
+    flex: 2;
+    flex-basis: 100%;
+    padding-left: 0%;
+    padding-top: 2.8%;
+  }
+
+  .game_research {
+    flex: 2;
+    flex-grow: 1;
+    flex-basis: 53%;
+  }
+
+  .game_debrief{
+    flex: 2;
+    flex-grow: 1;
+    flex-basis: 47%;
+    padding-left: 3%;
+  }
+
+  .game_reflection{
+    border: 0px solid black;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .game_goal {
+    padding-left: 0%;
+    flex-basis: 47%;
+    padding-left: 3%;
+  }
+
 }
 
 /* ------------------------------------------ */
@@ -343,7 +484,8 @@
   border: 0px solid green;
   flex: 3;
   flex-grow: 1;
-  flex-basis: 53%;
+  display: block;
+  flex-basis: 100%;
 }
 
 .tools_list{
@@ -444,7 +586,7 @@
   flex: 1;
   flex-basis: 100%;
   padding-top: 1%;
-  padding-right: 47%
+  padding-right: 0%;
 }
 
 .vr_reflection {
@@ -453,6 +595,15 @@
   flex-basis: 100%;
   padding-left: 0%;
 }
+
+@media screen and (min-width: 426px) {
+  .vr_wallpaper {
+  flex-basis: 53%;
+}
+
+  .vr_render {
+    padding-right: 47%;
+  }
 
 * {
   box-sizing: border-box;
