@@ -71,6 +71,8 @@
 .nav-container {
   border: 0px solid purple;
   margin-top: 1.5%;
+  padding-left: 3.25em;
+  display: flex;
 }
 
 /* footer */
@@ -78,6 +80,7 @@
   border: 0px solid black;
   max-width: 100%;
   text-align: center;
+  font-size: 1.025em;
 }
 
 .link1 {
@@ -599,11 +602,13 @@
 @media screen and (min-width: 426px) {
   .vr_wallpaper {
   flex-basis: 53%;
-}
+  }
 
   .vr_render {
     padding-right: 47%;
   }
+
+}
 
 * {
   box-sizing: border-box;

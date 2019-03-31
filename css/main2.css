@@ -2,12 +2,7 @@ html {
 	font-size: 16px;
 	font-family: 'Open Sans', 'Alfa Slab One', sans-serif;
   hyphens: none;
-}
-
-.nav-menu {
-  text-align: right;
-  margin-right: 2em;
-  margin-top: 5.75em;
+  background-color: rgb(245,245,245);
 }
 
 a {
@@ -20,7 +15,7 @@ p {
 }
 
 .caption {
-  font-size: .55em;
+  font-size: .70em;
 }
 
 nav a:hover, nav a:focus {
@@ -29,6 +24,7 @@ nav a:hover, nav a:focus {
 
 .menu-bottom {
   font-size: 0.75em;
+  background-color: rgb(112,117,113);
 }
 
 .nav-container-bottom {
@@ -38,33 +34,33 @@ nav a:hover, nav a:focus {
 
 .link1 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .link2 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .link3 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .link4 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .link5 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* hamburger menu logo */
 #hamburger {
 	max-width: 1.875em;
-	margin-left: 3.125em;
+
 }
 
 /* wallpaper image */
@@ -76,7 +72,7 @@ nav a:hover, nav a:focus {
 /* https://www.w3schools.com/howto/howto_css_responsive_text.asp */
 h1.welcome_text {
   font-family: 'Alfa Slab One', cursive;
-  color: red;
+  color: rgb(255,99,71);
   font-size: 6.5vw;
 }
 
@@ -148,6 +144,7 @@ h1.welcome_text {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5%;
 }
 
 /* the binding of isaac page */
