@@ -86,7 +86,6 @@ nav a:hover, nav a:focus {
 }
 
 /* Welcome text */
-/* https://www.w3schools.com/howto/howto_css_responsive_text.asp */
 h1.welcome_text {
   font-family: 'Alfa Slab One', cursive;
   color: rgb(255,99,71);
@@ -117,7 +116,6 @@ h1.welcome_text {
 
 /* The navigation menu links */
 .sidenav a {
-  /*padding: 8px 8px 8px 82px;*/
   padding-top: 8px;
   padding-right: 8px;
   padding-bottom: 0px;
@@ -211,7 +209,7 @@ iframe {
 }
 
 .citiation_content {
-  padding: 5% 30% 20% 30%;
+  padding: 5% 30% 50% 30%;
 }
 
 

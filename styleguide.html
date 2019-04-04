@@ -139,7 +139,7 @@
        <div class="container1"> 
           <div class="box1">
             <p class="color-box">
-              rgb(66,104,124)
+              rgb(255,99,71)
             </p> 
           </div> 
 
@@ -147,13 +147,13 @@
 
           <div class="box2">
             <p class="color-box">
-              rgb(132,165,184)
+              rgb(240,128,128)
             </p>
           </div>
 
           <div class="box3">
             <p class="color-box">
-              rgb(179,218,241)
+              rgb(66,104,124)
             </p>
           </div>          
 
@@ -162,7 +162,7 @@
        <div class="container2">
         <div class="box4">
             <p class="color-box">
-              rgb(203,203,203)
+              rgb(250,250,250)
             </p> 
         </div>
 
@@ -175,12 +175,51 @@
        </div>
     </section>
 
-    <section>
+    <section class="element">
         <h3>Potential imagery and or art direction</h3>
         <div>
           <img class="imagedirection" src="img/vrpagedirection.png" alt="image of websites blockhead vr page">
           <img class="imagedirection" src="img/gamedirection.png" alt="image of websites the binding of isaac page">
         </div>
+    </section>
+
+    <section class="element">
+      <h3>Side Nav</h3>
+      <h4>CSS</h4>
+      <code>
+        height: 100%; <br>
+        width: 0; <br>
+        position: fixed; <br>
+        z-index: 1; <br>
+        top: 0; <br>
+        left: 0; <br>
+        background-color: #111; <br>
+        overflow-x: hidden; <br>
+        padding-top: 60px; <br>
+        transition: 0.5s; 
+      </code>
+
+      <h4>Javascript</h4>
+      <code>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "300px";
+        } <br>
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      </code>
+
+      <h4>Sample Code</h4>
+      <code>
+        href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+      </code>
+
+    </section>
+
+    <section class="element">
+
+      <h3>Bottom Nav</h3>
+
     </section>
 
   </body>

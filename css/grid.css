@@ -28,7 +28,7 @@
   flex-grow: 1;
   flex-basis: 10em;
   text-align: center;
-  background-color: #42687C;
+  background-color: rgb(255,99,71);
 }
 
 .box2 {
@@ -36,7 +36,7 @@
   flex-grow: 1;
   flex-basis: 10em;
   text-align: center;
-  background-color: #84A5B8;
+  background-color: rgb(240,128,128);
 }
 
 .box3 {
@@ -44,15 +44,15 @@
   flex-grow: 1;
   flex-basis: 10em;
   text-align: center;
-  background-color: #B3DAF1;
+  background-color: rgb(66,104,124);
 }
 
 .box4 {
   flex: 2;
   flex-grow: 1;
   flex-basis: 10em;
-  text-align: center;
-  background-color: #CBCBCB;
+  text-align: center;   
+  background-color: rgb(250,250,250);
 }
 
 .box5 {
@@ -60,7 +60,7 @@
   flex-grow: 1;
   flex-basis: 10em;
   text-align: center;
-  background-color: #707571;
+  background-color: rgb(112,117,113);
 }
 
 /*----------------------------------------------------*/
@@ -156,7 +156,7 @@
   position: absolute;
   flex-wrap: wrap;
   top: -16.5%;
-  left: 59.49%;
+  left: 60%;
 }
 
 /* -------------------------------- */
@@ -332,24 +332,6 @@
 }
 
 @media screen and (min-width: 769px) {
-/*  .game_youtube {
-    flex: 1;
-    flex-grow: 1;
-    flex-basis: 3%;
-    position: relative;
-    width: 50%;
-    height: 0;
-    padding-bottom: 28.13%; 
-  }
-
-  .game_youtube iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }*/
-
   .game_goal {
     padding-left: 3%;
     flex-basis: 100%
