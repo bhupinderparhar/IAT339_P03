@@ -209,8 +209,7 @@ iframe {
 }
 
 .citiation_content {
-  padding: 5% 30% 50% 30%;
+  padding: 5% 30% 50% 20%;
+  max-width: 100%;
+  font-size: 1.9vw;
 }
-
-
-

@@ -123,4 +123,39 @@ input[type=text]{
   max-width: 90%;
 }
 
+/* bottom nav */
+.menu-bottom {
+  font-size: 0.75em;
+  background-color: rgb(112,117,113);
+}
+
+.nav-container-bottom {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.link1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.link2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.link3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.link4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.link5 a {
+  text-decoration: none;
+  color: white;
+}
 
