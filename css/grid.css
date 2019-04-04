@@ -63,8 +63,6 @@
   background-color: #707571;
 }
 
-
-
 /*----------------------------------------------------*/
 
 /* for index page  */
@@ -217,18 +215,12 @@
 }
 
 /* source code for youtube responsive video */
-/* https://www.youtube.com/watch?v=9YffrCViTVk */
-
 .game_youtube {
   border: 0px solid green;
   flex: 2;
   flex-grow: 1;
   flex-basis: 100%;
   position: relative;
-}
-
-.game_youtube iframe {
-
 }
 
 .game_goal {

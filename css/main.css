@@ -71,7 +71,6 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
   margin-top: 1rem;
   font-size: 1.7rem;
 }
@@ -120,7 +119,7 @@ input[type=text]{
 
 }
 
-#imagedirection {
+.imagedirection {
   max-width: 90%;
 }
 
